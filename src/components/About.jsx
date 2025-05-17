@@ -35,7 +35,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <div className='bg-gray-100 p-16 '> {/* <-- background change */}
+    <div className='bg-gray-100 p-16 ' id="about"> {/* <-- background change */}
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-gray-700`}> {/* <-- text color */}
           About Me

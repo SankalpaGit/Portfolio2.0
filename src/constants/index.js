@@ -14,20 +14,24 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  iic,
+  bf,
   carrent,
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+  youth,
+} from "../../src/assets";
 
-export const navLinks = [
+
+const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "work",
@@ -37,6 +41,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
@@ -113,42 +118,44 @@ const experiences = [
   {
     title: "IT Support and Operations",
     company_name: "Itahari International College",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    icon: iic,
+    iconBg: "#3f3f3f",
+    date: "Jul 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsible for providing technical support to faculty member and students.",
+      "Resposible For maintaing the digital and tech infrastructure of the college.",
+      "Maintance of network and Installation of the network media like Switch , lan cable etc.",
+      "Providing tecg support to external or internal management team during programs.",
     ],
   },
   {
     title: "Frontend Developer",
     company_name: "Blue Fox pvt. ltd.",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    icon: bf,
+    iconBg: "#000000",
+    date: "Jun 2024 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js and Next js.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Testing the API performance and integrating them to the client side.",
     ],
   },
   {
     title: "Backend / AI Developer",
     company_name: "Youth IT pvt. ltd.",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023 (seasonal)",
+    icon: youth,
+    iconBg: "#ffffff",
+    date: "Mar 2025 - Apr 2025 (seasonal)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Building and maintaining scalable backend APIs using Node.js with Express.",
+      "Developing client-specified AI models for recommendation and prediction use cases.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrating AI models into full-stack applications and optimizing them for performance and scalability in production environments.",
     ],
+
   },
+
 ];
 
 const testimonials = [
@@ -159,14 +166,6 @@ const testimonials = [
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -244,4 +243,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, navLinks };
