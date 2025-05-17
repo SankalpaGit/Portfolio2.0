@@ -48,8 +48,8 @@ const Feedbacks = () => {
         className={`bg-gradient-to-br from-gray-800 to-purple-600 rounded-2xl  min-h-[300px]`}
       >
         <motion.div variants={textVariant()} className="p-8">
-          <p className={`${styles.sectionSubText} text-gray-400`}>What others say</p>
-          <h2 className={`${styles.sectionHeadText} text-gray-300`}>Testimonials.</h2>
+          <p className={`text-gray-400 sm:text-[28px] text-[24px] sm:font-bold uppercase tracking-wider`}>What others say</p>
+          <h2 className={`text-gray-300 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]`}>Testimonials.</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
